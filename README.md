@@ -1,6 +1,7 @@
 # Orbital Stack - Adventure of Code
 
 [Adventure of Code](https://adventofcode.com/)
+
 [Github Repo (private at the moment)](https://github.com/gui1080/OrbitalStack_AdventofCode)
 
 Author: Guilherme Braga
