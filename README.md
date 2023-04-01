@@ -1,10 +1,12 @@
-# Orbital Stack - Adventure of Code
+# Orbital Stack - Adventure of Code (2022)
 
 [Adventure of Code](https://adventofcode.com/)
 
-[Github Repo (private at the moment)](https://github.com/gui1080/OrbitalStack_AdventofCode)
+[Github Repo (public at the moment)](https://github.com/gui1080/OrbitalStack_AdventofCode)
 
 Author: Guilherme Braga
+
+Submission date: 04/0x/2023
 
 I did not know if the first few tasks were easier or not, so I picked some tasks to do at random from the home page.
 
