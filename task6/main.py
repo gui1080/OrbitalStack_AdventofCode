@@ -16,9 +16,7 @@ current_data = ""
 
 for char in datastream:
 
-
     if char != "\n":
-        
 
         # first few occurences
         # getting partial datastream

@@ -127,11 +127,9 @@ for iy, ix in np.ndindex(myMap.shape):
                     visible.append(False)
                     print("Not visible!")
                     break
-
+            
             if visible != [False, False, False, False]:
                 
-                visible.append([myMap[iy, ix], iy, ix])
-
                 # new possible spot is available!
                 visible_spots = visible_spots + 1
 

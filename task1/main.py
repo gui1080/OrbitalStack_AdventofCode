@@ -9,7 +9,7 @@ Lines = input_file.readlines()
 # the elf the code is currently computing
 current_elf = 0
 
-# the one carrying more food
+# the one carrying more food (calories)
 strongest_elf = 0
 
 for line in Lines:
@@ -27,7 +27,6 @@ for line in Lines:
 
             strongest_elf = current_elf
 
-        # reset elf variable
         current_elf = 0
 
 print("Strongest elf is carrying " + str(strongest_elf) + " calories!")
