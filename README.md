@@ -12,7 +12,9 @@ I did not know if the first few tasks were easier or not, so I picked some tasks
 
 I used Python to solve the tasks as it was told to me that it would be important in the work environment.
 
-## How to run my code!
+My code has a lot of *prints* for didactic reasons only.
+
+## How to run a task!
 
 For every task, the input is a *input.txt* file. 
 
