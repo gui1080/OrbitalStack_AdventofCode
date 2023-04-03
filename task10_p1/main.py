@@ -1,6 +1,10 @@
 # --- Day 10: Cathode-Ray Tube ---
 # "Elvish Assembly"
 
+# Did something like this back in unversity
+# But It was a translator from an imaginary Assembly
+# language to IA-32. Overall learned a lot of Assembly in school.
+
 import re 
 from ops.signal import check_signal
 
