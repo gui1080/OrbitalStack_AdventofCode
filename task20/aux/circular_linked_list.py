@@ -112,9 +112,11 @@ class CLL:
         after = before.next.next
         
         before.next = after
+        
         if(index == 0):
             self.head = after
         self.count -= 1
+
         return
     
     # Given value of node and occurrence
@@ -164,7 +166,7 @@ class CLL:
 
         return temp.data
     
-    # Find zero, and then retrieve ith element 
+    # Find zero, and then retrieve "ith" element 
     # counting from zero
     def node_from_zero(self, index):
         
@@ -200,20 +202,6 @@ class CLL:
 
         return temp
 
-    '''
-    def get_node_ahead(self, current_index, pos_ahead):
-        
-        # what if pos_ahead goes all the way around?
-
-        temp = self.node_from_index(current_index)
-
-        for i in range(pos_ahead):
-            
-            temp = temp.next
-
-        return temp.data
-    '''
-
     # moving a node to the right
     def move_positive(self, index):
         original_list_size = self.count
@@ -236,26 +224,3 @@ class CLL:
             self.insert(times_moved, ((index+times_moved) % original_list_size)-1)
         return 
     
-    '''
-    def move_ahead(self, index, times):
-
-        original_index = index
-
-        for i in range(times):
-
-            temp = self.node_from_index(index)
-            
-            # current node i points to i+2
-            temp.next = self.node_from_index(index+2)
-
-            # node i+1 points to node i
-            next_node = self.node_from_index(index+1)
-            next_node.next = temp
-
-            # node i-1 points to i+1
-            back_node = self.node_from_index(index-1)
-            back_node.next = next_node
-
-            # now my original node is at index i+1
-            index = index + 1
-    '''
