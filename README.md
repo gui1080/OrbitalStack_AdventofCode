@@ -35,3 +35,5 @@ Python 3.11.2
 ### ReGex
 
 > Part of stardart lib.
+
+https://docs.python.org/3/library/re.html

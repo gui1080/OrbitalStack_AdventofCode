@@ -11,6 +11,8 @@ input_file = open('input.txt', 'r')
 # get all the lines in the input
 Lines = input_file.readlines()
 
+input_file.close()
+
 # elements per index
 my_stack = []
 

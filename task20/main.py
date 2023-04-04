@@ -9,6 +9,8 @@ input_file = open('test_input.txt', 'r')
 # get all the lines in the input
 Lines = input_file.readlines()
 
+input_file.close()
+
 operations = []
 
 nums = aux.circular_linked_list.CLL()

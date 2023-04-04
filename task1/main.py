@@ -6,6 +6,8 @@ input_file = open('input.txt', 'r')
 # get all the lines in the input
 Lines = input_file.readlines()
 
+input_file.close()
+
 # the elf the code is currently computing
 current_elf = 0
 

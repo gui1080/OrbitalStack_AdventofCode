@@ -7,6 +7,8 @@ input_file = open('input_test.txt', 'r')
 # get all the lines in the input
 List = input_file.readlines()
 
+input_file.close()
+
 NumberList = []
 
 for line in List:

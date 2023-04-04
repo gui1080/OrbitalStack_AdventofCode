@@ -9,6 +9,8 @@ input_file = open('input.txt', 'r')
 # get the input (1 line signal)
 datastream = input_file.readline()
 
+input_file.close()
+
 # string index, for every char processed
 count = 1
 

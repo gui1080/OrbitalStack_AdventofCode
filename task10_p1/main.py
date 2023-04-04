@@ -14,6 +14,8 @@ input_file = open('input2.txt', 'r')
 # get all the lines in the input
 Lines = input_file.readlines()
 
+input_file.close()
+
 cycles = 1
 x = 1
 signal_strength = 0

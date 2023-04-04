@@ -13,6 +13,8 @@ input_file = open('input.txt', 'r')
 # get all the lines in the input
 Lines = input_file.readlines()
 
+input_file.close()
+
 # turns input into integer 2D numpy matrix
 myMap = np.array(get_matrix_from_lines(Lines))
 
