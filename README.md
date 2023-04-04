@@ -14,6 +14,8 @@ I used Python to solve the tasks as it was told to me that it would be important
 
 My code has a lot of *prints* for didactic reasons only.
 
+A lot of tasks could be solved with an hardcoded input or a variable one, needing a parser. I used a parser always when possible.
+
 ## How to run a task!
 
 For every task, the input is a *input.txt* file. Some tasks may be tested with multiple inputs.
@@ -29,3 +31,7 @@ Python 3.11.2
 #### Numpy
 
 > pip3 install numpy
+
+### ReGex
+
+> Part of stardart lib.
