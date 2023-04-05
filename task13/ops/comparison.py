@@ -1,4 +1,8 @@
 
+# this function compares "a" and "b"
+# even If "a" or "b" is a list
+# If It is a list, recursion starts
+# until base case happens: comparing two integers
 def compare(a, b):
 
     # one iteration from base case
@@ -8,10 +12,12 @@ def compare(a, b):
     # if one element is a list
     # and the other is an integer
     if (type(a) == list) and (type(b) == int):
+        #print("Comparing a list and an integer")
         result = compare(a, [b])
         return result
 
     elif (type(a) == int) and (type(b) == list):
+        #print("Comparing an integer and a list")
         result = compare([a], b)
         return result
 
@@ -22,8 +28,7 @@ def compare(a, b):
     # just compare
     elif (type(a) == int) and (type(b) == int):
         
-        print("Comparing two integers")
-        # recursion default case
+        #print("Comparing two integers")
 
         if a < b:
             return("right")
@@ -32,11 +37,12 @@ def compare(a, b):
         elif a == b:
             return("equal")
 
+    # two lists
     # ----------------------------------
 
     elif (type(a) == list) and (type(b) == list):
         
-        print("Comparing two lists")
+        #print("Comparing two lists")
 
         result = "equal"
 
@@ -46,12 +52,12 @@ def compare(a, b):
 
             # eventually when the recursion reaches 
             # a maximum point and It starts resolving, 
-            # result will be something and the for loop breaks
-            if result == "right":
+            # result will be something and the loop breaks
+            if result == "left":
+                return "left"
+            elif result == "right":
                 return "right"
-                #break
         
-        # now we can evaluate "result" 
         # special case, If both elements are equal
         if result == "equal":
             # the len() of the inputs need to be evaluated
@@ -61,6 +67,6 @@ def compare(a, b):
             elif len(a) > len(b):
                 return("left")
             else:
-                    return("equal")
+                return("equal")
 
     return result 
