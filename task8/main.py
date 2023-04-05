@@ -15,8 +15,12 @@ Lines = input_file.readlines()
 
 input_file.close()
 
+# ---------------------------------------
+
 # turns input into integer 2D numpy matrix
 myMap = np.array(get_matrix_from_lines(Lines))
+
+# ---------------------------------------
 
 # trees in the outer part of the map
 # will be visible, automatically

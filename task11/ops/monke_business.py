@@ -1,4 +1,3 @@
-
 def retireve_monkey_business_level(monkey_objects):
     # get the two most active monkeys
     # multiply item counter

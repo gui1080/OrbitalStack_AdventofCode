@@ -6,7 +6,7 @@
 
 Author: Guilherme Braga
 
-Submission date: 04/0x/2023
+Submission date: 04/05/2023
 
 I did not know if the first few tasks were easier or not, so I picked some tasks to do at random from the home page.
 
@@ -14,7 +14,7 @@ I used Python to solve the tasks as it was told to me that it would be important
 
 My code has a lot of *prints* for didactic reasons only.
 
-A lot of tasks could be solved with an hardcoded input or a variable one, needing a parser. I used a parser always when possible.
+A lot of tasks could be solved with a hardcoded input or a variable one, needing a parser. I coded a parser for every task, to read the input from a *.txt* file.
 
 ## How to run a task!
 

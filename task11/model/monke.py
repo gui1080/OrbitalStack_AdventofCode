@@ -1,4 +1,3 @@
-
 class Monke:
 
     def __init__(self, MonkeyList):

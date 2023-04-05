@@ -1,4 +1,3 @@
-
 # this function compares "a" and "b"
 # even If "a" or "b" is a list
 # If It is a list, recursion starts

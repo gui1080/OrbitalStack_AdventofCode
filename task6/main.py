@@ -11,6 +11,8 @@ datastream = input_file.readline()
 
 input_file.close()
 
+# ---------------------------------------
+
 # string index, for every char processed
 count = 1
 

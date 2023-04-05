@@ -1,4 +1,3 @@
-
 def monkey_test(monkey_objects, monkey, inventory_element):
 
     print("Testing - " + str(inventory_element))

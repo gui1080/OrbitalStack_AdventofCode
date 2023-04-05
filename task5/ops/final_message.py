@@ -1,4 +1,3 @@
-
 # for every column in the stack, 
 # pop() last element if column is not empty
 def get_final_message(final_stack):
